@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useContext}from 'react'
 import ContectButton from './Home/ContectButton'
 import './App.css'
 import WhatWeDo from './WhatWeDo/WhatWeDo'
@@ -8,21 +8,26 @@ import Whychoose from './Whychooseus/Whychoose'
 import ClintFeedBack from './ClintFeedBack/ClintFeedBack'
 import {Routes,Route} from 'react-router-dom';
 import ContectUs from './ContectUs/ContectUs'
+import { MyContext } from './context/Context'
+import Footer from './Footer/Footer'
 
 const App = () => {
+  const {value} = useContext(MyContext)
   return (
     <div className='APPContainer'>
-      <Routes>
-       
-        <Route  path='/ContectUs' element={<ContectUs/>} />
-      
-      </Routes>
-        <ContectButton/>
-      <WhatWeDo/>
-      <WhyWeAreBest/>
-      <Whychoose/>
-      <OurCompnyGroth/>
-      <ClintFeedBack/>
+      {value ? (
+        <ContectUs />
+      ) : (
+        <>
+          <ContectButton />
+          <WhatWeDo />
+          <WhyWeAreBest />
+          <Whychoose />
+          <OurCompnyGroth />
+          <ClintFeedBack />
+          <Footer/>
+        </>
+      )}
     </div>
   )
 }

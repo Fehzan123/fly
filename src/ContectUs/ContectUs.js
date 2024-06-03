@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState,useContext } from 'react';
 import './ContectUs.css'; // Import the CSS file
+import { MyContext } from '../context/Context';
 
 const ContectUs = () => {
+  const {setValue} = useContext(MyContext)
   const [formData, setFormData] = useState({
     email: '',
     firstName: '',
@@ -30,6 +32,7 @@ const ContectUs = () => {
         } else {
           alert('Failed to submit the form.');
         }
+        setValue(false);
       })
       .catch((error) => {
         alert('An error occurred while submitting the form.');

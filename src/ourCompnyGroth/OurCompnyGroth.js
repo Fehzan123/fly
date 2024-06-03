@@ -8,7 +8,8 @@ const OurCompnyGroth = () => {
   return (
     <div className='componyContainer'>
         <div className='componyHeading'>
-        <h5>Experts growts</h5>
+        
+        <h5>EXPERTS GROWTS</h5>
         <h3>Our Company Growth</h3>
         </div>
         <div className ='boxs'>

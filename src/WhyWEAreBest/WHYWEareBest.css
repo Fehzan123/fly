@@ -63,7 +63,19 @@ h3 {
     padding-left: 10px;
   
     margin-left: 15px;
+    margin-bottom: 15PX;
     background: #F6F6F6 0% 0% no-repeat padding-box;
+}
+.contentTow {
+    height: 120px;
+    width: 250px;
+    margin: 0px;
+    padding: 0;
+    padding-left: 10px;
+  color: #F6F6F6;
+    margin-left: 15px;
+    margin-bottom: 15PX;
+    background: #FF3147 0% 0% no-repeat padding-box;
 }
 .contentOne:hover {
    
@@ -71,5 +83,8 @@ h3 {
    background-color: #FF3147;
    cursor: pointer;
 }
-
+.GenderlessHeading{
+    margin: 0;
+    padding: 0;
+}
  

@@ -86,8 +86,10 @@ const WhatWeDo = () => {
                   Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                   Pellentesque
                 </p>
-                <button className='READMORE'>READ MORE</button>
-              </div>
+                <a href='https://www.fylehq.com/' target='_blank' rel='noopener noreferrer'>
+                  <button className='READMORE'>READ MORE</button>
+                </a>
+                              </div>
             )}
           </div>
         ))}

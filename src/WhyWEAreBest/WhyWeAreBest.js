@@ -34,11 +34,12 @@ const WhyWeAreBest = () => {
             title: 'Genderless Kei – Japan’s Hot',
             description: 'Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of'
           }].map((content, index) => (
-            <div className='contentOne' key={index} onClick={() => handleClick(index)}>
-              <h4>{content.title}</h4>
-              <h6>{content.description}</h6>
-            </div>
+            <div className={`${index===1?'contentTow':'contentOne'}`} key={index} onClick={() => handleClick(index)}>
+            <div className='GenderlessHeading'>{content.title}</div>
+            <div>{content.description}</div>
+          </div>
           ))}
+          
         </div>
       </div>
     </div>
