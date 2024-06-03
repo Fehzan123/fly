@@ -1,0 +1,301 @@
+.Whatwedocontainer{
+ 
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    }
+    .Container{
+        top: 937px;
+        left: -4px;
+        width: 100%;
+      
+height: 800px;
+        /* UI Properties */
+        background: #FAFAFA 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding: 100x;
+        padding-top: 100px;
+    }
+    .whatwodo{
+        
+        left: 373px;
+       
+        /* UI Properties */
+        text-align: left;
+        font: normal normal 600 24px/26px Cormorant SC;
+        letter-spacing: 0px;
+        color: #FF3147;
+      
+        
+    
+    
+    font-family: Verdana (sans-serif);
+    
+    }
+    .whatdocontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    }
+    .servec{
+        top: 1101px;
+    left: 373px;
+    width: 442px;
+    height: 110px;
+    text-align: left;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1
+    }
+    p{
+        /* Layout Properties */
+        margin-top: 100px;
+        margin-left: 100px;
+    top: 13000px;
+    left: 960px;
+    width: 584px;
+    height: 83px;
+    font-size: 160px;
+    font-weight: bold;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    }
+    .one {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 5px;
+    }
+    .imgcontainer {
+        display: flex;
+        justify-content: center;
+      
+        
+    }
+    
+    .webdev {
+        background: #FF3147;
+        border-radius: 5px;
+        opacity: 0.86;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+       
+        max-width: 300px;
+       
+       
+    }
+    
+    .icon {
+        width: 57px;
+        height: 57px;
+        margin-bottom: 10px;
+    }
+    
+    .webDevelopmnt {
+        font-family: 'Cormorant SC', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #FFFFFF;
+        text-align: center;
+        
+    }
+   .webdevp{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: #000000;
+        text-align: center;
+        margin: 20px;
+        height: 15vh;
+        width: 70%;
+        color: #FAFAFA;
+        bottom: 200px;
+        
+    }
+    .READMORE{
+        top: 1634px;
+left: 1268px;
+width: 185px;
+height: 50px;
+/* UI Properties */
+background: #F4F4F4 0% 0% no-repeat padding-box;
+border-radius: 2px;
+opacity: 1;
+color: #FF3147;
+font: normal normal 600 14px/26px
+    }
+    /* Slider Container */
+.imgcontainer {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Adjust as needed */
+    margin: auto;
+  }
+  
+  /* Slider Track */
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Slide */
+  .one {
+    flex: 0 0 100%; /* Adjust width as needed */
+    max-width: 300px; /* Ensure all images are of the same size */
+    height: auto;
+    margin: 5px;
+  }
+  
+  /* Controls */
+/* Slider Container */
+
+  
+  /* Slider Track */
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Slide */
+  .one {
+    flex: 0 0 100%; /* Each image takes full width of the container */
+    height: auto;
+   
+  }
+  
+  /* Web Development Slide */
+
+  
+  /* Controls */
+ /* Slider Container */
+ .imgcontainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Slider Track */
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Slide */
+  .one {
+    flex: 0 0 100%; /* Each image takes full width of the container */
+    height: auto;
+    margin: 5px;
+  }
+  
+  /* Web Development Slide */
+  .webdev {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    right: 0;
+    bottom: 0;
+    background: rgba(224, 140, 140, 0.7); /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  /* Controls */
+  .slider-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+.imgcontainer:hover .webdev {
+    opacity: 1;
+  }
+  
+  .slider-control.prev {
+    left: 0;
+  }
+  
+  .slider-control.next {
+    right: 0;
+  }
+  
+  
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .Container {
+            padding: 10px;
+        }
+    
+        .whatwodo {
+            font-size: 20px;
+        }
+    
+        .servec {
+            font-size: 30px;
+        }
+    
+        p {
+            font-size: 14px;
+            margin: 10px;
+        }
+    
+        .one {
+            max-width: 200px;
+        }
+    
+        .webdev {
+            padding: 10px;
+        }
+    
+        .webDevelopmnt {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .whatwodo {
+            font-size: 18px;
+        }
+    
+        .servec {
+            font-size: 24px;
+        }
+    
+        p {
+            font-size: 12px;
+            margin: 5px;
+        }
+    
+        .one {
+            max-width: 150px;
+        }
+    
+        .webdev {
+            padding: 5px;
+        }
+    
+        .webDevelopmnt {
+            font-size: 18px;
+        }
+    }

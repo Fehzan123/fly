@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .Home {
@@ -20,11 +21,11 @@
    
 }
 
-img {
+.imggirl {
     top: 100px;
-    left: 1058px;
-    width: 487px;
-    height: 737px;
+    left: 1000px;
+    width: 300px;
+    height: 450px;
     opacity: 1;
 }
 

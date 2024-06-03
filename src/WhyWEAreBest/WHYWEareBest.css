@@ -1,0 +1,75 @@
+/* Container for the entire "We are Best" section */
+.WeareBestConainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Container for the heading section */
+.WearebestHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+}
+
+/* Image styling */
+img {
+
+    width: 60%;
+    height: 370px;
+    opacity: 1;
+}
+
+/* Styling for h5 elements */
+h5 {
+    position: relative;
+    top: 50px;
+    font-family: sans-serif;
+    color: #FF3147;
+}
+
+/* Styling for h3 elements */
+h3 {
+    color: black;
+}
+
+/* Container for images */
+.imgcontaner {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Container for content */
+.containtcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Individual content items */
+.contentOne {
+    height: 120px;
+    width: 250px;
+    margin: 0px;
+    padding: 0;
+    padding-left: 10px;
+  
+    margin-left: 15px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+}
+.contentOne:hover {
+   
+   color: #F6F6F6;
+   background-color: #FF3147;
+   cursor: pointer;
+}
+
+ 
